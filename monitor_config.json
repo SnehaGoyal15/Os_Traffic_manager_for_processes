@@ -1,0 +1,37 @@
+{
+    "thresholds": {
+        "cpu": 85,
+        "memory": 80,
+        "disk": 90
+    },
+    "monitoring": {
+        "refresh_rate": 2,
+        "history_length": 100,
+        "max_processes_display": 8
+    },
+    "safety": {
+        "dry_run": true,
+        "enable_auto_kill": false,
+        "require_confirmation": true
+    },
+    "notifications": {
+        "enable_email": true,
+        "email_address": "",
+        "critical_alerts_only": true
+    },
+    "network": {
+        "common_ports": [
+            22,
+            80,
+            443,
+            53,
+            3389,
+            3306,
+            5432,
+            8080,
+            5900
+        ],
+        "scan_timeout": 0.2,
+        "max_workers": 100
+    }
+}

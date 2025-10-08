@@ -1,0 +1,10 @@
+pip install psutil
+pip install rich
+venv
+python -m venv venv
+.\venv\Scripts\activate
+pip install streamlit pandas
+streamlit run dashboard_simple.py
+streamlit run dashboard_2sec_update.py
+streamlit run dashboard_final.py
+from network_scanner import scan_ports

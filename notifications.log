@@ -1,0 +1,207 @@
+2025-10-07 18:35:15,372 - INFO - TEST ALERT: This is a test notification from System Monitor
+2025-10-07 18:41:32,612 - INFO - SYSTEM ALERT: Possible memory leak in PID 7768 - Memory: 506.2MB
+2025-10-07 18:41:32,614 - INFO - SYSTEM ALERT: Possible memory leak in PID 544 - Memory: 312.4MB
+2025-10-07 18:41:32,614 - INFO - SYSTEM ALERT: Possible memory leak in PID 7768 - Memory: 506.2MB
+2025-10-07 18:41:32,631 - INFO - SYSTEM ALERT: Possible memory leak in PID 544 - Memory: 312.4MB
+2025-10-07 18:41:36,445 - INFO - SYSTEM ALERT: Possible memory leak in PID 7768 - Memory: 506.2MB
+2025-10-07 18:41:36,449 - INFO - SYSTEM ALERT: Possible memory leak in PID 544 - Memory: 312.4MB
+2025-10-07 18:41:39,523 - INFO - SYSTEM ALERT: Possible memory leak in PID 7768 - Memory: 506.2MB
+2025-10-07 18:41:39,525 - INFO - SYSTEM ALERT: Possible memory leak in PID 544 - Memory: 312.4MB
+2025-10-07 18:41:43,667 - INFO - SYSTEM ALERT: Possible memory leak in PID 7768 - Memory: 506.2MB
+2025-10-07 18:41:45,527 - INFO - TEST ALERT: This is a test notification from System Monitor
+2025-10-07 18:41:46,600 - INFO - SYSTEM ALERT: Possible memory leak in PID 7768 - Memory: 506.2MB
+2025-10-07 18:41:46,605 - INFO - SYSTEM ALERT: Possible memory leak in PID 544 - Memory: 312.4MB
+2025-10-07 18:41:49,734 - INFO - SYSTEM ALERT: Possible memory leak in PID 7768 - Memory: 506.2MB
+2025-10-07 18:41:52,996 - INFO - SYSTEM ALERT: Possible memory leak in PID 7768 - Memory: 506.2MB
+2025-10-07 18:41:56,565 - INFO - SYSTEM ALERT: Possible memory leak in PID 7768 - Memory: 506.2MB
+2025-10-07 18:42:01,219 - INFO - SYSTEM ALERT: Possible memory leak in PID 13720 - Memory: 3962.0MB
+2025-10-07 18:42:01,235 - INFO - SYSTEM ALERT: Possible memory leak in PID 7768 - Memory: 506.2MB
+2025-10-07 18:42:03,972 - INFO - SYSTEM ALERT: Possible memory leak in PID 7768 - Memory: 506.2MB
+2025-10-07 18:42:08,508 - INFO - SYSTEM ALERT: Possible memory leak in PID 7768 - Memory: 506.2MB
+2025-10-07 18:42:11,637 - INFO - SYSTEM ALERT: Possible memory leak in PID 7768 - Memory: 506.2MB
+2025-10-07 18:42:17,345 - INFO - SYSTEM ALERT: Possible memory leak in PID 7768 - Memory: 506.2MB
+2025-10-07 18:42:20,402 - INFO - SYSTEM ALERT: Possible memory leak in PID 7768 - Memory: 506.2MB
+2025-10-07 18:42:26,213 - INFO - SYSTEM ALERT: High CPU usage: 98.8%
+2025-10-07 18:42:26,284 - INFO - SYSTEM ALERT: High Memory usage: 81.4%
+2025-10-07 18:42:26,317 - INFO - SYSTEM EMERGENCY: System overload risk (CPU + Memory both high)
+2025-10-07 18:42:26,332 - INFO - SYSTEM ALERT: Possible memory leak in PID 7768 - Memory: 506.2MB
+2025-10-07 18:42:28,301 - INFO - SYSTEM ALERT: High CPU usage: 100.0%
+2025-10-07 18:42:28,381 - INFO - SYSTEM ALERT: Possible memory leak in PID 7768 - Memory: 506.2MB
+2025-10-07 18:42:35,011 - INFO - SYSTEM ALERT: High Memory usage: 80.7%
+2025-10-07 18:42:35,147 - INFO - SYSTEM ALERT: Possible memory leak in PID 7768 - Memory: 506.2MB
+2025-10-07 18:42:35,995 - INFO - SYSTEM ALERT: High Memory usage: 80.9%
+2025-10-07 18:42:36,027 - INFO - SYSTEM ALERT: Possible memory leak in PID 10660 - Memory: 554.2MB
+2025-10-07 18:42:36,118 - INFO - SYSTEM ALERT: Possible memory leak in PID 7768 - Memory: 506.2MB
+2025-10-07 18:42:43,986 - INFO - SYSTEM ALERT: Possible memory leak in PID 10660 - Memory: 554.2MB
+2025-10-07 18:42:44,178 - INFO - SYSTEM ALERT: Possible memory leak in PID 2056 - Memory: 340.4MB
+2025-10-07 18:42:44,872 - INFO - SYSTEM ALERT: Possible memory leak in PID 10660 - Memory: 554.2MB
+2025-10-07 18:42:44,872 - INFO - SYSTEM ALERT: Possible memory leak in PID 2056 - Memory: 340.4MB
+2025-10-07 18:42:52,250 - INFO - SYSTEM ALERT: Possible memory leak in PID 10660 - Memory: 554.2MB
+2025-10-07 18:42:52,284 - INFO - SYSTEM ALERT: Possible memory leak in PID 2056 - Memory: 340.4MB
+2025-10-07 18:42:53,789 - INFO - SYSTEM ALERT: Possible memory leak in PID 10660 - Memory: 554.2MB
+2025-10-07 18:42:53,877 - INFO - SYSTEM ALERT: Possible memory leak in PID 2056 - Memory: 340.4MB
+2025-10-07 18:43:00,557 - INFO - SYSTEM ALERT: High Memory usage: 80.2%
+2025-10-07 18:43:00,591 - INFO - SYSTEM ALERT: Possible memory leak in PID 10660 - Memory: 554.2MB
+2025-10-07 18:43:00,719 - INFO - SYSTEM ALERT: Possible memory leak in PID 2056 - Memory: 340.4MB
+2025-10-07 18:43:01,652 - INFO - SYSTEM ALERT: High Memory usage: 80.2%
+2025-10-07 18:43:01,692 - INFO - SYSTEM ALERT: Possible memory leak in PID 10660 - Memory: 554.2MB
+2025-10-07 18:43:01,803 - INFO - SYSTEM ALERT: Possible memory leak in PID 2056 - Memory: 340.4MB
+2025-10-07 18:43:04,025 - INFO - TEST ALERT: This is a test notification from System Monitor
+2025-10-07 18:43:09,281 - INFO - SYSTEM ALERT: High Memory usage: 80.7%
+2025-10-07 18:43:09,419 - INFO - SYSTEM ALERT: Possible memory leak in PID 10660 - Memory: 554.2MB
+2025-10-07 18:43:10,265 - INFO - SYSTEM ALERT: High Memory usage: 80.8%
+2025-10-07 18:43:10,360 - INFO - SYSTEM ALERT: Possible memory leak in PID 10660 - Memory: 554.2MB
+2025-10-07 18:43:17,553 - INFO - SYSTEM ALERT: High Memory usage: 81.9%
+2025-10-07 18:43:17,652 - INFO - SYSTEM ALERT: Possible memory leak in PID 13720 - Memory: 3992.6MB
+2025-10-07 18:43:17,767 - INFO - SYSTEM ALERT: Possible memory leak in PID 7768 - Memory: 506.2MB
+2025-10-07 18:43:18,448 - INFO - SYSTEM ALERT: High Memory usage: 81.9%
+2025-10-07 18:43:18,532 - INFO - SYSTEM ALERT: Possible memory leak in PID 13720 - Memory: 4009.8MB
+2025-10-07 18:43:18,635 - INFO - SYSTEM ALERT: Possible memory leak in PID 7768 - Memory: 506.2MB
+2025-10-07 18:43:25,877 - INFO - SYSTEM ALERT: High CPU usage: 98.8%
+2025-10-07 18:43:25,877 - INFO - SYSTEM ALERT: High Memory usage: 81.2%
+2025-10-07 18:43:25,877 - INFO - SYSTEM EMERGENCY: System overload risk (CPU + Memory both high)
+2025-10-07 18:43:31,429 - INFO - SYSTEM ALERT: High Memory usage: 82.0%
+2025-10-07 18:43:31,429 - INFO - SYSTEM ALERT: Possible memory leak in PID 544 - Memory: 315.9MB
+2025-10-07 18:43:37,305 - INFO - SYSTEM ALERT: High Memory usage: 83.0%
+2025-10-07 18:43:43,162 - INFO - SYSTEM ALERT: High Memory usage: 83.6%
+2025-10-07 18:43:49,029 - INFO - SYSTEM ALERT: High Memory usage: 83.8%
+2025-10-07 18:43:55,128 - INFO - SYSTEM ALERT: High Memory usage: 82.9%
+2025-10-07 18:44:00,935 - INFO - SYSTEM ALERT: High Memory usage: 83.1%
+2025-10-07 18:44:07,058 - INFO - SYSTEM ALERT: High Memory usage: 83.2%
+2025-10-07 18:44:13,321 - INFO - SYSTEM ALERT: High Memory usage: 82.6%
+2025-10-07 18:44:13,323 - INFO - SYSTEM ALERT: Possible memory leak in PID 7768 - Memory: 506.2MB
+2025-10-07 18:44:19,138 - INFO - SYSTEM ALERT: High Memory usage: 83.6%
+2025-10-07 18:44:19,138 - INFO - SYSTEM ALERT: Possible memory leak in PID 7768 - Memory: 506.2MB
+2025-10-07 18:44:25,435 - INFO - SYSTEM ALERT: High CPU usage: 90.0%
+2025-10-07 18:44:25,435 - INFO - SYSTEM ALERT: High Memory usage: 82.4%
+2025-10-07 18:44:25,435 - INFO - SYSTEM EMERGENCY: System overload risk (CPU + Memory both high)
+2025-10-07 18:44:25,435 - INFO - SYSTEM ALERT: Possible memory leak in PID 7768 - Memory: 506.2MB
+2025-10-07 18:44:31,947 - INFO - SYSTEM ALERT: High Memory usage: 83.3%
+2025-10-07 18:44:31,949 - INFO - SYSTEM ALERT: Possible memory leak in PID 7768 - Memory: 506.2MB
+2025-10-07 18:44:38,416 - INFO - SYSTEM ALERT: High Memory usage: 83.7%
+2025-10-07 18:44:38,416 - INFO - SYSTEM ALERT: Possible memory leak in PID 7768 - Memory: 506.2MB
+2025-10-07 18:44:44,912 - INFO - SYSTEM ALERT: High CPU usage: 94.2%
+2025-10-07 18:44:44,912 - INFO - SYSTEM ALERT: High Memory usage: 83.4%
+2025-10-07 18:44:44,912 - INFO - SYSTEM EMERGENCY: System overload risk (CPU + Memory both high)
+2025-10-07 18:44:44,912 - INFO - SYSTEM ALERT: Possible memory leak in PID 7768 - Memory: 506.2MB
+2025-10-07 18:44:51,474 - INFO - SYSTEM ALERT: High Memory usage: 83.7%
+2025-10-07 18:44:51,476 - INFO - SYSTEM ALERT: Possible memory leak in PID 7768 - Memory: 506.2MB
+2025-10-07 18:44:57,812 - INFO - SYSTEM ALERT: High CPU usage: 93.4%
+2025-10-07 18:44:57,813 - INFO - SYSTEM ALERT: High Memory usage: 83.3%
+2025-10-07 18:44:57,815 - INFO - SYSTEM EMERGENCY: System overload risk (CPU + Memory both high)
+2025-10-07 18:44:57,816 - INFO - SYSTEM ALERT: Possible memory leak in PID 7768 - Memory: 506.2MB
+2025-10-07 18:45:04,467 - INFO - SYSTEM ALERT: High Memory usage: 84.9%
+2025-10-07 18:45:04,469 - INFO - SYSTEM ALERT: Possible memory leak in PID 7768 - Memory: 506.2MB
+2025-10-07 18:45:11,037 - INFO - SYSTEM ALERT: High CPU usage: 96.5%
+2025-10-07 18:45:11,054 - INFO - SYSTEM ALERT: High Memory usage: 83.8%
+2025-10-07 18:45:11,056 - INFO - SYSTEM EMERGENCY: System overload risk (CPU + Memory both high)
+2025-10-07 18:45:11,059 - INFO - SYSTEM ALERT: Possible memory leak in PID 13720 - Memory: 3851.0MB
+2025-10-07 18:45:11,062 - INFO - SYSTEM ALERT: Possible memory leak in PID 7768 - Memory: 506.2MB
+2025-10-07 18:45:17,809 - INFO - SYSTEM ALERT: High CPU usage: 93.8%
+2025-10-07 18:45:17,811 - INFO - SYSTEM ALERT: High Memory usage: 84.3%
+2025-10-07 18:45:17,812 - INFO - SYSTEM EMERGENCY: System overload risk (CPU + Memory both high)
+2025-10-07 18:45:17,814 - INFO - SYSTEM ALERT: Possible memory leak in PID 13720 - Memory: 3851.0MB
+2025-10-07 18:45:17,815 - INFO - SYSTEM ALERT: Possible memory leak in PID 7768 - Memory: 506.2MB
+2025-10-07 18:45:24,505 - INFO - SYSTEM ALERT: High CPU usage: 99.2%
+2025-10-07 18:45:24,505 - INFO - SYSTEM ALERT: High Memory usage: 85.6%
+2025-10-07 18:45:24,505 - INFO - SYSTEM EMERGENCY: System overload risk (CPU + Memory both high)
+2025-10-07 18:45:24,505 - INFO - SYSTEM ALERT: Possible memory leak in PID 13720 - Memory: 3851.0MB
+2025-10-07 18:45:24,505 - INFO - SYSTEM ALERT: Possible memory leak in PID 7768 - Memory: 506.2MB
+2025-10-07 18:45:31,071 - INFO - SYSTEM ALERT: High Memory usage: 86.1%
+2025-10-07 18:45:31,071 - INFO - SYSTEM ALERT: Possible memory leak in PID 13720 - Memory: 3851.0MB
+2025-10-07 18:45:31,071 - INFO - SYSTEM ALERT: Possible memory leak in PID 7768 - Memory: 506.2MB
+2025-10-07 18:45:37,838 - INFO - SYSTEM ALERT: High CPU usage: 99.6%
+2025-10-07 18:45:37,838 - INFO - SYSTEM ALERT: High Memory usage: 86.9%
+2025-10-07 18:45:37,838 - INFO - SYSTEM EMERGENCY: System overload risk (CPU + Memory both high)
+2025-10-07 18:45:37,838 - INFO - SYSTEM ALERT: Possible memory leak in PID 13720 - Memory: 3869.4MB
+2025-10-07 18:45:37,851 - INFO - SYSTEM ALERT: Possible memory leak in PID 7768 - Memory: 553.4MB
+2025-10-07 18:46:13,620 - INFO - SYSTEM ALERT: Possible memory leak in PID 7768 - Memory: 553.7MB
+2025-10-07 18:46:13,621 - INFO - SYSTEM ALERT: Possible memory leak in PID 2056 - Memory: 341.2MB
+2025-10-07 18:46:13,621 - INFO - SYSTEM ALERT: Possible memory leak in PID 544 - Memory: 315.2MB
+2025-10-07 18:46:19,211 - INFO - SYSTEM ALERT: Possible memory leak in PID 7768 - Memory: 553.7MB
+2025-10-07 18:46:19,212 - INFO - SYSTEM ALERT: Possible memory leak in PID 2056 - Memory: 341.2MB
+2025-10-07 18:46:19,214 - INFO - SYSTEM ALERT: Possible memory leak in PID 544 - Memory: 315.2MB
+2025-10-07 18:46:24,997 - INFO - SYSTEM ALERT: Possible memory leak in PID 7768 - Memory: 553.7MB
+2025-10-07 18:46:24,999 - INFO - SYSTEM ALERT: Possible memory leak in PID 2056 - Memory: 341.2MB
+2025-10-07 18:46:25,001 - INFO - SYSTEM ALERT: Possible memory leak in PID 544 - Memory: 315.2MB
+2025-10-07 18:46:30,789 - INFO - SYSTEM ALERT: Possible memory leak in PID 7768 - Memory: 553.7MB
+2025-10-07 18:46:30,789 - INFO - SYSTEM ALERT: Possible memory leak in PID 2056 - Memory: 341.2MB
+2025-10-07 18:46:36,513 - INFO - SYSTEM ALERT: Possible memory leak in PID 7768 - Memory: 553.7MB
+2025-10-07 18:46:42,329 - INFO - SYSTEM ALERT: Possible memory leak in PID 7768 - Memory: 553.7MB
+2025-10-07 18:46:47,747 - INFO - SYSTEM ALERT: Possible memory leak in PID 7768 - Memory: 553.7MB
+2025-10-07 18:46:47,750 - INFO - SYSTEM ALERT: Possible memory leak in PID 10660 - Memory: 405.9MB
+2025-10-07 18:46:51,161 - INFO - TEST ALERT: This is a test notification from System Monitor
+2025-10-07 18:46:51,381 - INFO - TEST ALERT: This is a test notification from System Monitor
+2025-10-07 18:46:55,287 - INFO - SYSTEM ALERT: Possible memory leak in PID 8496 - Memory: 665.7MB
+2025-10-07 18:46:55,287 - INFO - SYSTEM ALERT: Possible memory leak in PID 7768 - Memory: 553.7MB
+2025-10-07 18:46:55,303 - INFO - SYSTEM ALERT: Possible memory leak in PID 10660 - Memory: 405.9MB
+2025-10-07 18:47:00,812 - INFO - SYSTEM ALERT: Possible memory leak in PID 8496 - Memory: 745.3MB
+2025-10-07 18:47:00,812 - INFO - SYSTEM ALERT: Possible memory leak in PID 7768 - Memory: 553.7MB
+2025-10-07 18:47:06,099 - INFO - SYSTEM ALERT: Possible memory leak in PID 8496 - Memory: 1128.1MB
+2025-10-07 22:18:41,662 - INFO - SYSTEM ALERT: Possible memory leak in PID 3804 - Memory: 260.2MB
+2025-10-07 22:18:48,621 - INFO - SYSTEM ALERT: High CPU usage: 89.7%
+2025-10-07 22:19:17,770 - INFO - SYSTEM ALERT: Possible memory leak in PID 11732 - Memory: 1012.5MB
+2025-10-07 22:19:23,824 - INFO - SYSTEM ALERT: Possible memory leak in PID 11732 - Memory: 1084.5MB
+2025-10-07 22:19:29,534 - INFO - SYSTEM ALERT: Possible memory leak in PID 11732 - Memory: 1155.5MB
+2025-10-07 22:19:35,965 - INFO - SYSTEM ALERT: Possible memory leak in PID 11732 - Memory: 1222.2MB
+2025-10-07 22:19:42,026 - INFO - SYSTEM ALERT: Possible memory leak in PID 11732 - Memory: 1246.7MB
+2025-10-07 22:19:49,420 - INFO - SYSTEM ALERT: Possible memory leak in PID 11732 - Memory: 1252.1MB
+2025-10-07 22:19:52,250 - INFO - SYSTEM ALERT: Possible memory leak in PID 11732 - Memory: 1256.6MB
+2025-10-07 22:19:58,244 - INFO - SYSTEM ALERT: Possible memory leak in PID 11732 - Memory: 1290.2MB
+2025-10-07 22:20:04,268 - INFO - SYSTEM ALERT: Possible memory leak in PID 4444 - Memory: 306.4MB
+2025-10-07 22:20:10,365 - INFO - SYSTEM ALERT: Possible memory leak in PID 10212 - Memory: 355.7MB
+2025-10-07 22:20:16,513 - INFO - SYSTEM ALERT: Possible memory leak in PID 10212 - Memory: 355.7MB
+2025-10-07 22:20:22,985 - INFO - SYSTEM ALERT: Possible memory leak in PID 10212 - Memory: 355.7MB
+2025-10-07 22:20:28,837 - INFO - SYSTEM ALERT: Possible memory leak in PID 10212 - Memory: 355.7MB
+2025-10-07 22:20:34,510 - INFO - SYSTEM ALERT: Possible memory leak in PID 10212 - Memory: 355.7MB
+2025-10-07 22:20:34,510 - INFO - SYSTEM ALERT: Possible memory leak in PID 4760 - Memory: 261.9MB
+2025-10-07 22:20:40,281 - INFO - SYSTEM ALERT: Possible memory leak in PID 10212 - Memory: 355.7MB
+2025-10-07 22:20:40,281 - INFO - SYSTEM ALERT: Possible memory leak in PID 4760 - Memory: 263.8MB
+2025-10-07 22:20:46,421 - INFO - SYSTEM ALERT: Possible memory leak in PID 10212 - Memory: 355.8MB
+2025-10-07 22:20:52,778 - INFO - SYSTEM ALERT: Possible memory leak in PID 10212 - Memory: 355.8MB
+2025-10-07 22:21:36,488 - INFO - SYSTEM ALERT: Possible memory leak in PID 3804 - Memory: 250.6MB
+2025-10-07 22:21:42,225 - INFO - SYSTEM ALERT: Possible memory leak in PID 3804 - Memory: 250.6MB
+2025-10-07 22:21:48,143 - INFO - SYSTEM ALERT: Possible memory leak in PID 4444 - Memory: 296.0MB
+2025-10-07 22:21:54,340 - INFO - SYSTEM ALERT: Possible memory leak in PID 10212 - Memory: 336.5MB
+2025-10-07 22:21:54,340 - INFO - SYSTEM ALERT: Possible memory leak in PID 4444 - Memory: 296.0MB
+2025-10-07 22:22:00,487 - INFO - SYSTEM ALERT: Possible memory leak in PID 10212 - Memory: 336.5MB
+2025-10-07 22:22:00,487 - INFO - SYSTEM ALERT: Possible memory leak in PID 4444 - Memory: 296.0MB
+2025-10-07 22:22:05,828 - INFO - SYSTEM ALERT: Possible memory leak in PID 11732 - Memory: 2366.6MB
+2025-10-07 22:22:05,843 - INFO - SYSTEM ALERT: Possible memory leak in PID 10212 - Memory: 336.6MB
+2025-10-07 22:22:05,858 - INFO - SYSTEM ALERT: Possible memory leak in PID 4444 - Memory: 296.0MB
+2025-10-07 22:22:12,631 - INFO - SYSTEM ALERT: Possible memory leak in PID 11732 - Memory: 2398.6MB
+2025-10-07 22:22:12,659 - INFO - SYSTEM ALERT: Possible memory leak in PID 10212 - Memory: 336.6MB
+2025-10-07 22:22:12,669 - INFO - SYSTEM ALERT: Possible memory leak in PID 4444 - Memory: 298.5MB
+2025-10-07 22:22:18,840 - INFO - SYSTEM ALERT: Possible memory leak in PID 10212 - Memory: 336.7MB
+2025-10-07 22:22:24,810 - INFO - SYSTEM ALERT: Possible memory leak in PID 10212 - Memory: 336.7MB
+2025-10-07 22:22:30,385 - INFO - SYSTEM ALERT: Possible memory leak in PID 10212 - Memory: 336.7MB
+2025-10-07 22:22:37,207 - INFO - SYSTEM ALERT: Possible memory leak in PID 10212 - Memory: 336.7MB
+2025-10-07 22:22:43,287 - INFO - SYSTEM ALERT: Possible memory leak in PID 10212 - Memory: 336.8MB
+2025-10-07 22:22:49,125 - INFO - SYSTEM ALERT: Possible memory leak in PID 10212 - Memory: 336.9MB
+2025-10-07 22:22:55,081 - INFO - SYSTEM ALERT: Possible memory leak in PID 10212 - Memory: 337.0MB
+2025-10-07 22:23:00,770 - INFO - SYSTEM ALERT: High CPU usage: 97.7%
+2025-10-07 22:23:00,770 - INFO - SYSTEM ALERT: Possible memory leak in PID 10212 - Memory: 337.0MB
+2025-10-07 22:23:06,904 - INFO - SYSTEM ALERT: Possible memory leak in PID 10212 - Memory: 337.1MB
+2025-10-07 22:23:13,068 - INFO - SYSTEM ALERT: Possible memory leak in PID 10212 - Memory: 337.1MB
+2025-10-07 22:23:20,249 - INFO - SYSTEM ALERT: Possible memory leak in PID 10212 - Memory: 337.1MB
+2025-10-07 22:23:26,226 - INFO - SYSTEM ALERT: Possible memory leak in PID 10212 - Memory: 337.1MB
+2025-10-07 22:23:32,136 - INFO - SYSTEM ALERT: Possible memory leak in PID 10212 - Memory: 337.1MB
+2025-10-07 22:23:38,080 - INFO - SYSTEM ALERT: Possible memory leak in PID 10212 - Memory: 337.1MB
+2025-10-07 22:23:44,259 - INFO - SYSTEM ALERT: Possible memory leak in PID 10212 - Memory: 337.2MB
+2025-10-07 22:23:50,399 - INFO - SYSTEM ALERT: Possible memory leak in PID 11680 - Memory: 292.0MB
+2025-10-07 22:23:50,399 - INFO - SYSTEM ALERT: Possible memory leak in PID 10212 - Memory: 337.2MB
+2025-10-07 22:23:56,538 - INFO - SYSTEM ALERT: Possible memory leak in PID 11680 - Memory: 307.7MB
+2025-10-07 22:23:56,538 - INFO - SYSTEM ALERT: Possible memory leak in PID 10212 - Memory: 337.2MB
+2025-10-07 22:24:02,427 - INFO - SYSTEM ALERT: Possible memory leak in PID 11680 - Memory: 308.4MB
+2025-10-07 22:24:14,901 - INFO - SYSTEM ALERT: High CPU usage: 87.8%
+2025-10-07 22:24:28,014 - INFO - SYSTEM ALERT: High CPU usage: 92.7%
+2025-10-07 22:24:28,014 - INFO - SYSTEM ALERT: Possible memory leak in PID 4444 - Memory: 289.6MB
+2025-10-07 22:24:34,091 - INFO - SYSTEM ALERT: Possible memory leak in PID 4444 - Memory: 292.7MB
+2025-10-07 22:24:40,620 - INFO - SYSTEM ALERT: High CPU usage: 90.5%
+2025-10-07 22:24:40,620 - INFO - SYSTEM ALERT: Possible memory leak in PID 4444 - Memory: 311.5MB
+2025-10-07 22:24:46,971 - INFO - SYSTEM ALERT: High CPU usage: 93.5%
+2025-10-07 22:24:46,971 - INFO - SYSTEM ALERT: Possible memory leak in PID 4444 - Memory: 316.6MB
+2025-10-07 22:24:52,891 - INFO - SYSTEM ALERT: High CPU usage: 97.7%
+2025-10-07 22:25:17,137 - INFO - SYSTEM ALERT: Possible memory leak in PID 10212 - Memory: 337.3MB
+2025-10-07 22:25:35,964 - INFO - SYSTEM ALERT: Possible memory leak in PID 4760 - Memory: 257.9MB
+2025-10-07 22:25:41,552 - INFO - SYSTEM ALERT: Possible memory leak in PID 4760 - Memory: 258.1MB
