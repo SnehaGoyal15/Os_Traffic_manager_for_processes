@@ -116,6 +116,14 @@ if st.session_state['show_settings']:
             help="Send alerts via notification system"
         )
         
+        # Email Address Input Field
+        email_address = st.text_input(
+            "Recipient Email Address",
+            value=current_config["notifications"]["email_address"],
+            placeholder="Enter email address for alerts",
+            help="Email address where alerts will be sent"
+        )
+        
         critical_only = st.checkbox(
             "Critical Alerts Only",
             value=current_config["notifications"]["critical_alerts_only"],
@@ -132,6 +140,7 @@ if st.session_state['show_settings']:
                 new_config["thresholds"]["disk"] = disk_threshold
                 new_config["monitoring"]["refresh_rate"] = refresh_rate
                 new_config["notifications"]["enable_email"] = enable_notifications
+                new_config["notifications"]["email_address"] = email_address
                 new_config["notifications"]["critical_alerts_only"] = critical_only
                 
                 if update_config(new_config):
@@ -417,3 +426,4 @@ while True:
         st.caption("Developed using Streamlit. Use with caution on production systems.")
 
     time.sleep(refresh_rate)
+    
