@@ -1,4 +1,4 @@
-# dashboard_final.py - COMPLETE UPDATED VERSION (No Emojis)
+# dashboard_final.py 
 import streamlit as st
 import pandas as pd
 from collections import deque
@@ -426,4 +426,3 @@ while True:
         st.caption("Developed using Streamlit. Use with caution on production systems.")
 
     time.sleep(refresh_rate)
-    
