@@ -51,7 +51,7 @@ alert_history = st.session_state['alert_history']
 st.sidebar.title("Safety Controls")
 
 # Emergency stop
-if st.sidebar.button("EMERGENCY STOP AUTO-KILL", type="secondary", use_container_width=True):
+if st.sidebar.button("EMERGENCY STOP AUTO-KILL", type="secondary", use_container_width=True, key="emergency_stop_btn"):
     st.session_state['auto_kill_enabled'] = False
     st.session_state['kill_confirm'] = ""
     st.sidebar.success("Auto-kill feature DISABLED for safety!")
@@ -68,7 +68,7 @@ st.sidebar.markdown("---")
 st.sidebar.subheader("Configuration")
 
 # Settings toggle
-if st.sidebar.button("Open Settings", key="open_settings", use_container_width=True):
+if st.sidebar.button("Open Settings", key="open_settings_btn", use_container_width=True):
     st.session_state['show_settings'] = not st.session_state['show_settings']
 
 # Settings panel
@@ -84,21 +84,24 @@ if st.session_state['show_settings']:
             "CPU Alert Threshold (%)", 
             50, 100, 
             current_config["thresholds"]["cpu"],
-            help="CPU usage above this percentage will trigger alerts"
+            help="CPU usage above this percentage will trigger alerts",
+            key="cpu_threshold_slider"
         )
         
         memory_threshold = st.slider(
             "Memory Alert Threshold (%)", 
             50, 100, 
             current_config["thresholds"]["memory"],
-            help="Memory usage above this percentage will trigger alerts"
+            help="Memory usage above this percentage will trigger alerts",
+            key="memory_threshold_slider"
         )
         
         disk_threshold = st.slider(
             "Disk Alert Threshold (%)", 
             50, 100, 
             current_config["thresholds"]["disk"],
-            help="Disk usage above this percentage will trigger alerts"
+            help="Disk usage above this percentage will trigger alerts",
+            key="disk_threshold_slider"
         )
         
         st.subheader("Monitoring Settings")
@@ -106,14 +109,16 @@ if st.session_state['show_settings']:
             "Refresh Rate (seconds)", 
             1, 10, 
             current_config["monitoring"]["refresh_rate"],
-            help="How often the dashboard updates"
+            help="How often the dashboard updates",
+            key="refresh_rate_slider"
         )
         
         st.subheader("Notification Settings")
         enable_notifications = st.checkbox(
             "Enable Notifications",
             value=current_config["notifications"]["enable_email"],
-            help="Send alerts via notification system"
+            help="Send alerts via notification system",
+            key="enable_notifications_cb"
         )
         
         # Email Address Input Field
@@ -121,19 +126,21 @@ if st.session_state['show_settings']:
             "Recipient Email Address",
             value=current_config["notifications"]["email_address"],
             placeholder="Enter email address for alerts",
-            help="Email address where alerts will be sent"
+            help="Email address where alerts will be sent",
+            key="email_address_input"
         )
         
         critical_only = st.checkbox(
             "Critical Alerts Only",
             value=current_config["notifications"]["critical_alerts_only"],
-            help="Only send notifications for critical system alerts"
+            help="Only send notifications for critical system alerts",
+            key="critical_only_cb"
         )
         
         # Save settings
         col1, col2 = st.columns(2)
         with col1:
-            if st.button("Save Settings", use_container_width=True):
+            if st.button("Save Settings", use_container_width=True, key="save_settings_btn"):
                 new_config = current_config.copy()
                 new_config["thresholds"]["cpu"] = cpu_threshold
                 new_config["thresholds"]["memory"] = memory_threshold
@@ -151,7 +158,7 @@ if st.session_state['show_settings']:
                     st.error("Failed to save settings")
         
         with col2:
-            if st.button("Test Notifications", use_container_width=True):
+            if st.button("Test Notifications", use_container_width=True, key="test_notifications_btn"):
                 result = test_notifications()
                 if "error" not in result:
                     st.success("Notification test completed!")
@@ -159,13 +166,13 @@ if st.session_state['show_settings']:
                     st.error("Notification test failed")
 
 # Simulation toggle
-simulate_anomaly = st.sidebar.checkbox("Simulate Anomalies", value=False, key="simulate_anomaly")
+simulate_anomaly = st.sidebar.checkbox("Simulate Anomalies", value=False, key="simulate_anomaly_cb")
 
 # -------------------- NETWORK SCANNING SECTION --------------------
 st.sidebar.markdown("---")
 st.sidebar.subheader("Network Scanning")
 
-scan_enable = st.sidebar.checkbox("Enable Range Scan", value=False, key="range_scan_enable")
+scan_enable = st.sidebar.checkbox("Enable Range Scan", value=False, key="range_scan_enable_cb")
 quick_scan = st.sidebar.button("Quick Scan Common Ports", key="quick_scan_btn", use_container_width=True)
 scan_host = st.sidebar.text_input("Host to scan", value="127.0.0.1", key="host_input")
 start_port = st.sidebar.number_input("Start Port", min_value=1, max_value=65535, value=1, key="start_port_input")
@@ -365,16 +372,16 @@ while True:
             col1, col2 = st.columns(2)
             
             with col1:
-                if st.button("Refresh Process List", use_container_width=True):
+                if st.button("Refresh Process List", use_container_width=True, key="refresh_process_btn"):
                     st.rerun()
             
             with col2:
                 # Double confirmation system
-                confirm1 = st.checkbox("I understand this may cause system instability", key="confirm1")
+                confirm1 = st.checkbox("I understand this may cause system instability", key="confirm1_unique")
                 if confirm1:
-                    confirm2 = st.checkbox("I have saved all my work", key="confirm2")
+                    confirm2 = st.checkbox("I have saved all my work", key="confirm2_unique")
                     if confirm2:
-                        kill_text = st.text_input("Type 'KILL' to confirm:", key="kill_confirm")
+                        kill_text = st.text_input("Type 'KILL' to confirm:", key="kill_confirm_unique")
                         if kill_text.strip().upper() == "KILL":
                             st.session_state['auto_kill_enabled'] = True
                             st.error("AUTO-KILL ENABLED - Processes will be terminated!")
